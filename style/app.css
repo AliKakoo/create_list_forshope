@@ -1,0 +1,159 @@
+@font-face {
+    font-family: "shabnam";
+    src: url("../fonts/Shabnam-FD.woff2" ) format("woff2");
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+body{
+    font-family:"shabnam",sans-serif;
+    background-color: #fafafa;
+}
+
+.container{
+    width: 1216px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 56px;
+   
+
+
+
+
+}
+.section-head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    
+
+}
+.section_title{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+}
+.section_title_icon{
+    width: 22px;
+    height: 22px;
+    color: #1E88E5;
+
+}
+.section_link{
+    color: #1E88E5;
+    text-align: none ;
+}
+
+.row{
+    display: flex;
+    gap: 24px;
+   
+
+}
+.product{
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.08) ;
+    padding: 24px;
+    background-color: #fff;
+ 
+}
+.product_image{
+    width: 100%;
+
+}
+.product_name{
+    color: #212121;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 14px;
+    line-height: 1.6;
+    height: 68px;
+
+}
+.product_link{
+    text-decoration: none;
+    color: inherit;
+    
+
+}
+.product_offer{
+    
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    margin-top: 14px;
+
+}
+.product_offer_percent{
+    background-color: #E3F2FD;
+    color: #1E88E5;
+    font-weight: bold;
+    padding: 2px 4px ;
+    display: inline-block;
+    border-radius: 4px;
+}
+span.product_offer_price::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: red;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+.product_offer_price{
+    
+    display: inline-block;
+    color: #78909C;
+    position: relative;
+
+}
+.product_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4px;
+
+}
+.product_price{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+}
+.product_price_number{
+    font-weight: bold;
+    font-size: 18px;
+
+}
+.product_price_unit{
+    font-size: 12px;
+
+}
+.product_rating{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+}
+.product_rating_number{
+    font-size: 14px;
+    color: #78909C;
+
+}
+.product_rating_icon{
+    width: 16px;
+    height: 16px;
+    color: #FF9800;
+
+}
+
